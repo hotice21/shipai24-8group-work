@@ -37,9 +37,7 @@ def remove_device():
         if str(devices['password'])!='114514':
             return 'fail to connect with correct password'
         with open(data,"r") as fs:
-            print(2)
             old_date=json.load(fs)
-        print(3)
         ids=devices["id"]
         success=""
         error=""
