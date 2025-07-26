@@ -154,9 +154,4 @@ if __name__ == "__main__":
             role = assigned_roles[player_num]
             history_count = player_history[player_num].count(role)
             print(f"{player_num} 的身份是：{role} (历史获得{history_count}次)")
-        
-        print("\n各玩家历史记录：")
-        print(player_history)
-        
-        continueing = input("\n按Enter继续？")
     print("游戏结束")
